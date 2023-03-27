@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Libre+Baskerville&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Asap', sans-serif;
+}
+header{
+    padding: 10px 20px;
+    display: flex;
+    background-color: rgb(158, 245, 245);
+}
+header h1{
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+   color: white;
+}
+.top-banner{
+    height: 50vh;
+    background-image: url("src/banner.png");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size:cover ;
+     padding: 20px 30px;
+}
+.top-banner h1{
+    color: white;
+}
+.top-banner ul li{
+    color: white;
+    font-weight: 700;
+    list-style: none;
+}
+.top-banner a{
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+  background-color: rgb(255, 229, 195);
+  font-weight: bold;
+}
+.text{
+    margin: 50px 20px;
+}
+.flex{
+    display: flex;
+   
+}
+.flex-box img{
+ width: 100%;
+}
+.flex-box{
+    width: 40%;
+    margin: 0 5% 0 5%;
+    padding: 20px;
+}
+.our-skill{
+    padding: 10px;
+    background-color: rgb(7, 7, 83);
+}
+.our-skill h1{
+    text-align: center;
+    color: white;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 10px;
+}
+.iem{
+    box-shadow: white 0px 7px 29px 0px;
+    padding: 10px;
+    color: white;
+}
+.iem i{
+    font-size: 30px;
+}
+.our-place h1,p{
+ text-align: center;
+}
+.grid2{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ gap: 10px;
+ justify-content: center;
+ padding: 30px;
+
+}
+.images img{
+ width: 100%;
+}
+footer {
+    background-color: #f0efef;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-content i{
+    font-size: 20px; margin: 10px;
+  }
+  
+@media screen and (max-width:576px){
+ 
+    header {
+        padding: 1rem;
+        display: flex;
+        background-color: rgb(158, 245, 245);
+        width: 101%;
+        }
+        
+        
+        
+        .top-banner {
+        width: 95%;
+        margin: 0 auto;
+        }
+        
+        
+        .flex {
+        display: flex;
+        flex-direction: column;
+        }
+        
+        .flex-box {
+        width: 90%;
+        margin: 0 auto;
+        padding: 1rem;
+        text-align: center;
+        }
+        .our-skill{
+            width: 103%;
+           
+        }
+       
+        .grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+        
+      
+        .our-place {
+        width: 90%;
+        margin: 0 auto;
+        }
+        
+        
+        footer {
+        padding: 1rem;
+        width: 102%;
+        margin: 0 auto;
+        }
+        
+        .footer-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        }
+        
+      
+        .images {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        }
+        }
