@@ -131,7 +131,7 @@ footer {
         padding: 1rem 1rem 0 1rem;
         display: flex;
         background-color: rgb(158, 245, 245);
-        width: 27rem;
+        width: 27.2rem;
         
         justify-content: space-around;
         }
@@ -139,7 +139,7 @@ footer {
         
         
         .top-banner {
-            width: 25.2rem;
+            width: 25.5rem;
        
       
         }
@@ -181,7 +181,7 @@ footer {
         
         footer {
         padding: 1rem;
-        width: 105%;
+        width: 106%;
        
        
         }
@@ -191,7 +191,12 @@ footer {
         flex-direction: column;
         text-align: center;
         }
-        
+        .our-place{
+            width: 25rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
       
         .images {
         width: 100%;
