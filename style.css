@@ -136,6 +136,8 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: stretch;
+
          }
     header {
         padding: 1rem 1rem 0 1rem;
