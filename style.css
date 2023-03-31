@@ -132,7 +132,7 @@ footer {
   
 @media screen and (max-width:576px){
     main{
-        margin: auto;
+      
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,9 +143,10 @@ footer {
         padding: 1rem 1rem 0 1rem;
         display: flex;
         background-color: rgb(158, 245, 245);
-        width: 27.2rem;
+        width: 28.5rem;
         
         justify-content: space-around;
+        margin: auto;
         }
         .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -164,18 +165,20 @@ footer {
     text-align: left;
   }
         .top-banner {
-           width: 28.5rem;
-          
+           width: 31.5rem;
+         
       
         }
         .text{
             padding: 16px;
+          text-align: center;
         }
         
         
         .flex {
         display: flex;
         flex-direction: column;
+      
         
        
         
@@ -188,7 +191,8 @@ footer {
         text-align: center;
         }
         .our-skill{
-            width: 31.2rem;
+            width: 31.3rem;
+           
            
         }
        
@@ -199,20 +203,14 @@ footer {
         }
         
         .iem{
-            width: 18rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            
+            width: 18rem
            
          }
         .our-place h1,p {
           text-align: center;
         }
-      .place{
+      .our-place{
         width: 29.3rem;
-        display: flex;
-        flex-direction: column;
 
       }
         .grid2{
@@ -221,8 +219,8 @@ footer {
         }
         footer {
         padding: 1rem;
-        width: 27rem;
-       
+        width: 28rem;
+      
        
         }
         
