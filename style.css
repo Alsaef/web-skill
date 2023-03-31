@@ -200,8 +200,14 @@ footer {
         .our-place h1,p {
           text-align: center;
         }
-     
-        
+      .our-place{
+        width: 29.3rem;
+
+      }
+        .grid2{
+           display: grid;
+           grid-template-columns: repeat(1,1fr);
+        }
         footer {
         padding: 1rem;
         width: 27rem;
@@ -214,16 +220,7 @@ footer {
         flex-direction: column;
         text-align: center;
         }
-        .our-place{
-            width: 25rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
+       
       
-        .images {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        }
+       
         }
