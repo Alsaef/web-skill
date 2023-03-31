@@ -136,7 +136,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
 
          }
     header {
@@ -164,15 +164,18 @@ footer {
     text-align: left;
   }
         .top-banner {
-            width: 25.5rem;
-       
+           width: 28.5rem;
+          
       
+        }
+        .text{
+            padding: 16px;
         }
         
         
         .flex {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         
        
         
@@ -185,7 +188,7 @@ footer {
         text-align: center;
         }
         .our-skill{
-            width: 28rem;
+            width: 31.2rem;
            
         }
        
@@ -196,14 +199,20 @@ footer {
         }
         
         .iem{
-            width: 18rem
+            width: 18rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
            
          }
         .our-place h1,p {
           text-align: center;
         }
-      .our-place{
+      .place{
         width: 29.3rem;
+        display: flex;
+        flex-direction: column;
 
       }
         .grid2{
