@@ -9,7 +9,7 @@ header{
     display: flex;
     background-color: rgb(158, 245, 245);
 }
-header h1{
+.logo{
     font-size: 1.5em;
     color: white;
     font-weight: bold;
@@ -123,6 +123,7 @@ footer {
   
 @media screen and (max-width:576px){
     main{
+        margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,9 +136,6 @@ footer {
         
         justify-content: space-around;
         }
-        
-        
-        
         .top-banner {
             width: 25.5rem;
        
@@ -181,7 +179,7 @@ footer {
         
         footer {
         padding: 1rem;
-        width: 106%;
+        width: 27rem;
        
        
         }
