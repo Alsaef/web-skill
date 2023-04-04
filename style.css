@@ -8,6 +8,7 @@ header{
     padding: 10px 20px;
     display: flex;
     background-color: rgb(158, 245, 245);
+    justify-content: space-between;
 }
 .logo{
     font-size: 1.5em;
@@ -88,13 +89,15 @@ header{
 .grid{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 10px;
+    gap: 30px;
     padding: 10px;
+    
 }
 .iem{
     box-shadow: white 0px 7px 29px 0px;
     padding: 10px;
     color: white;
+    
 }
 .iem i{
     font-size: 30px;
@@ -162,6 +165,7 @@ footer {
 }
 .grid{
   grid-template-columns: repeat(1,1fr);
+  justify-items: center;
 }
 
 }
